@@ -9,3 +9,24 @@ $$\
 \$$
 
 $\left[\int_{\-infty}^{\infty} f(x) \; dx\right]$
+
+kramdown:
+  math_engine: mathjax
+
+---
+title: "Math Example"
+---
+
+This page demonstrates how to include mathematical equations in a GitHub Pages site.
+
+Inline math: $E = mc^2$
+
+Display math:
+
+$$
+\frac{\partial}{\partial x} f(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}
+$$
+
+
+
+
